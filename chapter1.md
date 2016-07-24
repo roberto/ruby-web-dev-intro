@@ -1,3 +1,5 @@
-# First Chapter
+# Ruby
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+Neste capítulo daremos uma introdução a Ruby, abordando sua instalação e uso.
+
+Para podermos utilizar o Ruby on Rails
