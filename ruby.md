@@ -26,3 +26,132 @@ Você já possui Ruby instalado no seu computador!
 Na linha de comando que mencionamos na seção anterior, digite o seguinte comando: `sudo apt-get install` e aperte *Enter*. Você deverá digitar sua senha (a mesma que você usa para ligar o computador) e apertar *Enter*.
 
 Para verificar se o Ruby está mesmo instalado, digite o comando `ruby -v` na linha de comando e aperte *Enter*. Você deve ver uma mensagem informando a versão do Ruby que você instalou, algo do tipo: `ruby 1.9.3p551`. Agora podemos usar Ruby!
+
+
+# Agora sim, vamos falar de Ruby?
+
+Como já comentei, o Ruby on Rails é feito com a linguagem Ruby. Então, antes de começarmos a programar, é melhor entendermos algumas coisas básicas do ruby como variáveis, arrays, métodos, etc. Vamos dar uma olhada em o que são cada um desses nomes e como podemos criar eles :)
+
+## Variáveis no Ruby
+
+Nas variáveis que guardamos nossos dados, e eles podem ser de vários tipos:
+* String (palavra ou frase)
+* Integer (número inteiro)
+* Float (número decimal)
+* Boolean (verdadeiro ou falso)
+* Array (uma lista de valores)
+
+### Strings
+
+**Strings** sempre estarão entre aspas, podendo ser duplas:
+
+```ruby
+projeto = "Projeto Tutoras"
+```
+
+Ou aspas simples:
+
+```ruby
+projeto = 'Projeto Tutoras'
+```
+
+### Integer, Floa
+
+**Integers** são números inteiros:
+
+```ruby
+numero_de_aprendizes = 100
+```
+
+**Floats** são números decimais:
+
+```ruby
+horas_de_aprendizado = 4.5
+```
+
+**Obs**: Um ponto importante pra citar aqui, é sobre o nome que damos às variáveis: elas não devem conter espaços, como podemos ver nas variáveis criadas aqui o espaço foi substituído por *underline* (_).
+
+### Boolean
+
+Boleanos é de um tipo de dado que pode ser verdadeiro ou falso.
+
+```ruby
+tutora_feliz = true
+```
+
+‘**True**’ é verdadeiro em inglês, idioma que a linguagem ruby utiliza.
+
+```ruby
+tutora_triste = false
+```
+
+‘**False**’ é falso em inglês, idioma que a linguagem ruby utiliza.
+
+### Arrays
+
+Arrays são listas onde podemos guardar dados, e podem ser de vários tipos:
+
+String:
+
+```ruby
+nomes_das_tutoras = ["Carol", "Ana", "Joana"]
+````
+
+Números:
+
+```ruby
+idades_das_tutoras = [23, 20, 35]
+```
+
+### Métodos
+
+Métodos são como funções, eles fazem algo para a gente, podendo retornar um valor, para declarar métodos em ruby, fazemos assim:
+
+```ruby
+def escrever_nome(nome)
+	"Seu nome é #{nome}"
+end
+```
+
+Ok, mas o que significa tudo isso?
+* `def` - estamos dizendo que estamos criando um método
+* `escrever_nome(nome)` - esse é o nome do nosso método, note que nele subtituímos os espaços por underline (_) também, e o que está entre parenteses - (nome) - é o parâmetro do nosso método, uma variável que mandamos para o método, para que ele faça algo com ela
+* `“Seu nome é #{nome}”` - é o que o método vai retornar para a gente, note que usamos o paramêtro nome na frase, então se chamássemos o método escrever_nome(“Carol”), o método retornaria “Seu nome é Carol”
+* `end` - estamos dizendo que estamos finalizando o método
+
+Então quando chamamos o método “linguagem_de_promacao”, chamamos pelo nome que demos: 
+
+```ruby
+linguagem_de_programacao
+```
+
+Vemos o retorno dele, que é:
+
+```ruby
+"Ruby"
+```
+
+### Comentários
+
+São partes do código que não serão executados, podem ser usados pra lembrar de algo naquela parte do código, por exemplo. São muito bons quando estamos aprendendo, pois podemos comentar o que o código está fazendo:
+
+```ruby
+# Este é um comentário que não é executado
+
+def linguagem_de_programacao
+	"Ruby"
+end
+```
+
+Para criarmos um comentário, iniciamos a frase com ‘#’, assim, o ruby sabe que ali tem um comentário e ele não precisa executar nada.
+
+### Onde aprender mais sobre Ruby?
+
+Abaixo, alguns links que podem ajudar a ver mais sobre ruby, e a treinar um pouquinho também :)
+
+* [https://www.codecademy.com/pt-BR/courses/ruby-beginner-pt-BR](https://www.codecademy.com/pt-BR/courses/ruby-beginner-pt-BR)
+* [http://www.devmedia.com.br/conhecendo-a-linguagem-ruby/8226](http://www.devmedia.com.br/conhecendo-a-linguagem-ruby/8226)
+* [http://tryruby.org/levels/1/challenges/0](http://tryruby.org/levels/1/challenges/0) - está em inglês, mas é um tutorial muito legal de testar
+
+
+
