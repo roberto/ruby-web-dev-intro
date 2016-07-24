@@ -16,5 +16,38 @@ No Linux:
 
 Caso seu Linux seja diferente, você pode procurar no Google :\)
 
+Agora você deve ver uma janela branca ou preta que está à espera de seus comandos.
+Se você estiver em Mac ou num Linux, você provavelmente verá um `$`, como este:
+
+```
+$
+```
+
+No Windows, é um sinal de `>`, como este:
+
+```
+>
+```
+
+Vamos começar com algo simples. Digite o seguinte comando:
+
+```
+$ whoami
+```
+
+Ou:
+
+```
+> whoami
+```
+
+Depois tecle Enter. Essa é nossa saída:
+
+```
+> whoami
+caroline
+```
+
+Como você pode ver, esse comando mostra o seu usuário. No caso, quem é você :)
 
 
