@@ -1,6 +1,6 @@
 # Summary
 
 * [Sobre](README.md)
-* Terminal
+* [Terminal](terminal.md)
 * [Ruby](ruby.md)
 
