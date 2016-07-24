@@ -19,10 +19,10 @@ Quando você clicar no link, um download vai começar. Abra o arquivo baixado e 
 
 ### Mac OS X
 
-Você já possui Ruby instalado no seu computador! Não precisa fazer nada nesse passo.
+Você já possui Ruby instalado no seu computador!
 
 ### Linux
 
-Na linha de comando que mencionamos no último tópico, digite o seguinte comando: `sudo apt-get install` e aperte *Enter*. Você deverá digitar sua senha (a mesma que você usa para ligar o computador) e apertar *Enter*.
+Na linha de comando que mencionamos na seção anterior, digite o seguinte comando: `sudo apt-get install` e aperte *Enter*. Você deverá digitar sua senha (a mesma que você usa para ligar o computador) e apertar *Enter*.
 
-Para verificar se o Ruby está mesmo instalado, digite o comando `ruby -v` na linha de comando e aperte Enter. Você deve ver uma mensagem informando a versão do Ruby que você instalou, algo do tipo: `ruby 1.9.3p551`. Agora podemos usar Ruby!
+Para verificar se o Ruby está mesmo instalado, digite o comando `ruby -v` na linha de comando e aperte *Enter*. Você deve ver uma mensagem informando a versão do Ruby que você instalou, algo do tipo: `ruby 1.9.3p551`. Agora podemos usar Ruby!
