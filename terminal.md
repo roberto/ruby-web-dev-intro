@@ -29,6 +29,8 @@ No Windows, é um sinal de `>`, como este:
 >
 ```
 
+## Executando comandos
+
 Vamos começar com algo simples. Digite o seguinte comando:
 
 ```
@@ -50,4 +52,14 @@ caroline
 
 Como você pode ver, esse comando mostra o seu usuário. No caso, quem é você :)
 
+Outros comandos úteis:
 
+| Comando (Windows) | Comando (Mac/Linux) | Descrição | Exemplo |
+| -- | -- | -- | -- |
+| exit | exit | Fecha a janela | exit |
+| cd | cd | Muda a pasta | cd etst |
+| dir | ls | Lista as pastas e arquivos | ls |
+| copy | cp | Copia pastas e arquivos | copy c:\test\test.txt c:\windows\test.txt |
+| move | mv | Move pastas e arquivos | move c:\test\test.txt c:\windows\test.txt |
+| mkdir | mkdir | Cria pastas | mkdir etst |
+| del | rm | Remove pastas e arquivos | del c:\test\test.txt |
