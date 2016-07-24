@@ -1,3 +1,9 @@
-# My Awesome Book
+# Introdução de Ruby on Rails
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+Materia introdutório sobre Ruby on Rails utilizado no evento Trans na TI - 2016.
+
+## Sobre os autores
+
+### Bárbara Hartmann
+
+### Roberto Soares
