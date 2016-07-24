@@ -32,18 +32,18 @@ Para verificar se o Ruby está mesmo instalado, digite o comando `ruby -v` na li
 
 Como já comentei, o Ruby on Rails é feito com a linguagem Ruby. Então, antes de começarmos a programar, é melhor entendermos algumas coisas básicas do ruby como variáveis, arrays, métodos, etc. Vamos dar uma olhada em o que são cada um desses nomes e como podemos criar eles :)
 
-## Variáveis no Ruby
+## Tipos básicos no Ruby
 
-Nas variáveis que guardamos nossos dados, e eles podem ser de vários tipos:
-* String (palavra ou frase)
-* Integer (número inteiro)
-* Float (número decimal)
-* Boolean (verdadeiro ou falso)
-* Array (uma lista de valores)
+Nas variáveis que guardamos nossos dados e eles podem ser de vários tipos:
+* Palavras ou frases: **String**
+* Números inteiros: **Integer**
+* Números decimais: **Float**
+* Valores lógicos (verdadeiro ou falso): **True** e **False**
+* Lista de valores: **Array**
 
-### Strings
+### Palavras ou frases
 
-**Strings** sempre estarão entre aspas, podendo ser duplas:
+Sempre estarão entre aspas, podendo ser duplas:
 
 ```ruby
 projeto = "Projeto Tutoras"
@@ -55,7 +55,9 @@ Ou aspas simples:
 projeto = 'Projeto Tutoras'
 ```
 
-### Integer, Floa
+Esse tipo é chamado **String**.
+
+### Números inteiros e decimais
 
 **Integers** são números inteiros:
 
@@ -69,11 +71,13 @@ numero_de_aprendizes = 100
 horas_de_aprendizado = 4.5
 ```
 
-**Obs**: Um ponto importante pra citar aqui, é sobre o nome que damos às variáveis: elas não devem conter espaços, como podemos ver nas variáveis criadas aqui o espaço foi substituído por *underline* (_).
+Sendo `4,5` o valor no exemplo, pois o Ruby representa esses valores com ponto.
 
-### Boolean
+**Obs**: Um ponto importante pra citar aqui, é sobre o nome que damos às variáveis: elas não devem conter espaços, como podemos ver nas variáveis criadas aqui o espaço foi substituído por *underline* (\_).
 
-Boleanos é de um tipo de dado que pode ser verdadeiro ou falso.
+### Lógicos
+
+Os valores lógicos, chamados de Booleanos, representam verdadeiro e falso.
 
 ```ruby
 tutora_feliz = true
@@ -85,22 +89,28 @@ tutora_feliz = true
 tutora_triste = false
 ```
 
-‘**False**’ é falso em inglês, idioma que a linguagem ruby utiliza.
+‘**False**’ é falso em inglês.
 
 ### Arrays
 
-Arrays são listas onde podemos guardar dados, e podem ser de vários tipos:
+Arrays são listas onde podemos guardar dados e podem ser de vários tipos:
 
-String:
+Palvras ou frases:
 
 ```ruby
-nomes_das_tutoras = ["Carol", "Ana", "Joana"]
-````
+nomes_das_tutoras = ["Carol", "Bárbara"]
+```
 
 Números:
 
 ```ruby
-idades_das_tutoras = [23, 20, 35]
+idades_das_tutoras = [23, 20]
+```
+
+E tudo junto:
+
+```ruby
+dados = [10, true, "Carol"]
 ```
 
 ### Métodos
@@ -115,11 +125,11 @@ end
 
 Ok, mas o que significa tudo isso?
 * `def` - estamos dizendo que estamos criando um método
-* `escrever_nome(nome)` - esse é o nome do nosso método, note que nele subtituímos os espaços por underline (_) também, e o que está entre parenteses - (nome) - é o parâmetro do nosso método, uma variável que mandamos para o método, para que ele faça algo com ela
-* `“Seu nome é #{nome}”` - é o que o método vai retornar para a gente, note que usamos o paramêtro nome na frase, então se chamássemos o método escrever_nome(“Carol”), o método retornaria “Seu nome é Carol”
+* `escrever_nome(nome)` - esse é o nome do nosso método, note que nele subtituímos os espaços por underline (\_) também, e o que está entre parenteses - (nome) - é o parâmetro do nosso método, uma variável que mandamos para o método, para que ele faça algo com ela
+* `“Seu nome é #{nome}”` - é o que o método vai retornar para a gente, note que usamos o paramêtro nome na frase, então se chamássemos o método `escrever_nome("Carol")`, o método retornaria `"Seu nome é Carol"`
 * `end` - estamos dizendo que estamos finalizando o método
 
-Então quando chamamos o método “linguagem_de_promacao”, chamamos pelo nome que demos: 
+Então quando chamamos o método `linguagem_de_promacao`, chamamos pelo nome que demos:
 
 ```ruby
 linguagem_de_programacao
@@ -152,6 +162,3 @@ Abaixo, alguns links que podem ajudar a ver mais sobre ruby, e a treinar um pouq
 * [https://www.codecademy.com/pt-BR/courses/ruby-beginner-pt-BR](https://www.codecademy.com/pt-BR/courses/ruby-beginner-pt-BR)
 * [http://www.devmedia.com.br/conhecendo-a-linguagem-ruby/8226](http://www.devmedia.com.br/conhecendo-a-linguagem-ruby/8226)
 * [http://tryruby.org/levels/1/challenges/0](http://tryruby.org/levels/1/challenges/0) - está em inglês, mas é um tutorial muito legal de testar
-
-
-
