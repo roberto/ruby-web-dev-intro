@@ -1,5 +1,5 @@
 # Summary
 
-* [Introduction](README.md)
+* [Sobre](README.md)
 * [Ruby](ruby.md)
 
