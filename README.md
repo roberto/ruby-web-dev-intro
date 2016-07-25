@@ -1,6 +1,6 @@
 # Introdução de Ruby on Rails
 
-Material introdutório sobre Ruby on Rails utilizado no evento Trans na TI - 2016.
+Material introdutório sobre Ruby on Rails criado para o evento Trans na TI - 2016.
 
 ## Sobre os Autores
 
@@ -18,4 +18,4 @@ Logo depois do curso, começou estagiando como programadora PHP, e a partir daí
 
 Seu interesse por computadores começou ainda muito novo, quando brincava com seu [Pense Bem](https://pt.wikipedia.org/wiki/Pense_Bem).
 
-Trabalhou com Ruby on Rails por 7 anos em diversas empresas, já tendo realizado palestras sobre Ruby on Rails e ministrado treinamentos de Ruby.
+Trabalhou com Ruby on Rails por 7 anos em diversas empresas, já tendo realizado palestras e treinamentos sobre Ruby e Ruby on Rails.
