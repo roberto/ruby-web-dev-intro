@@ -15,5 +15,5 @@ Nesta seção falaremos um pouco do Atom, que será utilizado nos próximos exem
 O Atom é um editor de textos de código aberto disponível para Windows, Mac OS e Linux. Pode ser baixado gratuitamente na página do projeto: [https://atom.io/](https://atom.io/)
 
 Aqui uma captura de tela de um projeto utilizando o Atom:
-![Atom](Screen Shot 2016-07-26 at 1.10.18 AM.png)
+![Atom](images/3_editores/atom_exemplo.png)
 Ao lado esquerdo os arquivos e pastas do diretório, ao lado direito um arquivo aberto para edição.
