@@ -1,6 +1,5 @@
 # Summary
 
 * [Sobre](README.md)
-* [Terminal](terminal.md)
-* [Ruby](ruby.md)
-
+* [Terminal](2_terminal.md)
+* [Ruby](4_ruby.md)
