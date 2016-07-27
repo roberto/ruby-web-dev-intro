@@ -1,6 +1,6 @@
-# Introdução de Ruby on Rails
+# Introdução de Desenvolvimento Web com Ruby
 
-Material introdutório sobre Ruby on Rails criado para o evento Trans na TI - 2016.
+Material introdutório criado para o evento Trans na TI - 2016.
 
 ## Sobre os Autores
 
