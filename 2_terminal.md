@@ -55,7 +55,7 @@ Como você pode ver, esse comando mostra o seu usuário. No caso, quem é você 
 Outros comandos úteis:
 
 | Comando (Windows) | Comando (Mac/Linux) | Descrição | Exemplo |
-| -- | -- | -- | -- |
+| --- | --- | --- | --- |
 | exit | exit | Fecha a janela | exit |
 | cd | cd | Muda a pasta | cd etst |
 | dir | ls | Lista as pastas e arquivos | ls |
