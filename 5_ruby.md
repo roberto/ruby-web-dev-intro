@@ -1,8 +1,6 @@
 # Ruby
 
-Para podermos trabalhar com Ruby on Rails temos que programar utilizando a linguagem de programação Ruby, por isso nesta seção falaremos a respeito dela.
-
-<!-- não sei exatamente onde colocar isso -->É uma forma de expressar as instruções que o computador deve seguir.
+Para programar, usamos uma linguagem de programação, que é um idioma que permite que a gente dê comandos para o computador, como uma forma de expressar as instruções que o computador deve seguir. A linguagem que usaremos é Ruby, uma linguagem criada para ser fácil de usar.
 
 ## Instalação
 
