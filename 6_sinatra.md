@@ -1,6 +1,7 @@
 # Sinatra
 
-Agora que já aprendemos um pouco sobre Ruby, vamos colocar em prática. O Sinatra é uma forma de criar aplicações web que utilizaremos nesta seção.
+Agora que já aprendemos um pouco sobre Ruby, vamos colocar em prática. O Sinatra
+é uma forma de criar aplicações web que utilizaremos nesta seção.
 
 ## Instalação
 
@@ -40,13 +41,16 @@ Vamos agora destrinchar nosso exemplo.
 require 'sinatra'
 ```
 
-Primeiramente estamos carregando o Sinatra, disponibilizando assim componentes do mesmo na nossa aplicação:
+Primeiramente estamos carregando o Sinatra, disponibilizando assim componentes
+do mesmo na nossa aplicação:
 
 ```ruby
 get '/' #(...)
 ```
 
-O `get` é um método do Sinatra, que serve para indicarmos como responder a solicitação de uma página, no caso a página raiz do nosso site, o `/`, que por sua vez é o primeiro parâmetro.
+O `get` é um método do Sinatra, que serve para indicarmos como responder a
+solicitação de uma página, no caso a página raiz do nosso site, o `/`, que por
+sua vez é o primeiro parâmetro.
 
 ```ruby
 do
@@ -54,4 +58,5 @@ do
 end
 ```
 
-O bloco de código passado para o `get` indica como responderemos a solicitação, no caso retornando a frase `"Olá Mundo!"`.
+O bloco de código passado para o `get` indica como responderemos a solicitação,
+no caso retornando a frase `"Olá Mundo!"`.
