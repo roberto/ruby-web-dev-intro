@@ -1,0 +1,23 @@
+{
+  "name": "ruby-web-dev-intro",
+  "version": "0.0.1",
+  "description": "Introdução de Desenvolvimento Web com Ruby",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "markdownlint-cli": "^0.2.0"
+  },
+  "scripts": {
+    "test": "markdownlint --config lint.json *.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roberto/ruby-web-dev-intro.git"
+  },
+  "author": "",
+  "license": "CC-BY-NC-4.0",
+  "bugs": {
+    "url": "https://github.com/roberto/ruby-web-dev-intro/issues"
+  },
+  "homepage": "https://github.com/roberto/ruby-web-dev-intro#readme"
+}
