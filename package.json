@@ -5,10 +5,12 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "markdownlint-cli": "^0.2.0"
+    "markdownlint-cli": "^0.2.0",
+    "onchange": "^2.5.0"
   },
   "scripts": {
-    "test": "markdownlint --config lint.json *.md"
+    "test": "markdownlint --config lint.json *.md",
+    "watch": "onchange '*.md' -v -- npm test"
   },
   "repository": {
     "type": "git",
