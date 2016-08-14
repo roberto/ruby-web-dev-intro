@@ -193,6 +193,58 @@ Experimente também utilizar a tag `ol` em vez de `ul` ou até mesmo `table`.
 Escreva seu nome, seu aniversário ou a data de uma festa. Tente utilizar as
 tags da sessão "Principais tags HTML" para ver como fica na página.
 
+## Atributos de tags
+
+As tags podem ter atributos. Um atributo possui um nome e um valor, e é
+utilizado para adicionar informações extras ao elemento. Esta pode ser a
+informação a qual indica como o conteúdo deve ser renderizado, algo que
+identifique a ocorrência única do elemento e entre outras possibilidades.
+
+O atributo de um elemento é sempre escrito dentro da tag de abertura logo após
+o nome e tem o padrão nomedoatributo + sinal de igual + valor entre aspas.
+
+```html
+<tag nomedoatributo="valor"></tag>
+```
+
+Exemplo:
+
+```html
+<a href="http://www.facebook.com/">Facebook</a>
+a - tag de link
+href - atributo com a url do link
+```
+
+Resultado:
+
+---
+[Facebook](http://www.facebook.com/)
+
+---
+
+### Atributos de algumas tags
+
+Tag `<input>`:
+
+* type – Tipo de dado: text, file, radio, checkbox, hidden, password, submit,
+  reset, button, image
+* name – Identificação do campo
+* maxlength – Número máximo de caracteres permitidos
+* value – Texto que aparece dentro da caixa ou nome do botão
+
+Tag `<img>`:
+
+* src - Localização da imagem (caminho do computador, url, etc)
+* alt - Descrição da imagem
+* width - Largura da imagem
+* height - Altura da imagem
+
+Tag `<a>`:
+
+* href - Url do link
+* target - Especifica onde é para o link abrir: \_blank (nova página),
+  \_parent, \_self (mesma página), \_top
+
 ## Onde aprender mais sobre HTML?
 
 Abaixo, alguns links que podem ajudar a ver mais sobre HTML:
