@@ -135,7 +135,6 @@ Resultado:
 <!-- markdownlint-disable MD033 -->
 
 ---
-
 <div>
   <p>Sou um parágrafo dentro de uma div</p>
   <table>
@@ -152,6 +151,47 @@ Resultado:
 
 ---
 <!-- markdownlint-enable MD033 -->
+
+## Criando nosso primeiro arquivo HTML
+
+Vamos agora criar uma lista de desejos, podem ser presentes, utilizando HTML.
+
+### Passo a passo
+
+* Crie um arquivo chamado `index.html` no seu editor em alguma pasta do seu
+  computador
+* Abra o arquivo e digite:
+
+```html
+<html>
+  <body>
+    <h1>Minha Lista de Desejos!</h1>
+  </body>
+</html>
+```
+
+* Salve o arquivo
+* Abra o arquivo em algum navegador (Firefox, Chrome, Safari, etc.)
+* Voilà! \o/
+
+Agora vamos adicionar uma lista logo após nosso título:
+
+```html
+<html>
+  <body>
+    <h1>Minha Lista de Desejos!</h1>
+    <ul>
+      <li>Pão de mel</li>
+      <li>Unicórnio de pelúcia</li>
+      <li><b>Mais</b> pão de mel</li>
+    </ul>
+  </body>
+</html>
+```
+
+Experimente também utilizar a tag `ol` em vez de `ul` ou até mesmo `table`.
+Escreva seu nome, seu aniversário ou a data de uma festa. Tente utilizar as
+tags da sessão "Principais tags HTML" para ver como fica na página.
 
 ## Onde aprender mais sobre HTML?
 
