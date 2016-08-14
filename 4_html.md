@@ -181,9 +181,8 @@ Agora vamos adicionar uma lista logo após nosso título:
   <body>
     <h1>Minha Lista de Desejos!</h1>
     <ul>
-      <li>Pão de mel</li>
-      <li>Unicórnio de pelúcia</li>
-      <li><b>Mais</b> pão de mel</li>
+      <li>Mais uma temporada do meu seriado favorito</li>
+      <li><b>Unicórnio</b> de pelúcia</li>
     </ul>
   </body>
 </html>
@@ -241,9 +240,23 @@ Tag `<img>`:
 
 Tag `<a>`:
 
-* href - Url do link
+* href - URL da página destino
 * target - Especifica onde é para o link abrir: \_blank (nova página),
   \_parent, \_self (mesma página), \_top
+
+## Adicionando links
+
+Agora que abordamos atributos de tags, vamos experimentar adicionar links nos
+itens da lista adicionando a tag `<a>` em volta dos textos e utilizando o
+atributo `href` para indicar a página destino:
+
+```html
+<li>
+  <a href="http://disneyxd.disney.com.br/gravity-falls/">
+    Mais uma temporada do meu seriado favorito
+  </a>
+</li>
+```
 
 ## Onde aprender mais sobre HTML?
 
