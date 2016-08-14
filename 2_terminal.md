@@ -64,8 +64,8 @@ Outros comandos úteis:
 | --- | --- | --- | --- |
 | `dir` | `ls` | Lista as pastas e arquivos | `ls` |
 | `cd` | `cd` | Muda a pasta | `cd test` |
-| `copy` | `cp` | Copia pastas e arquivos | `copy c:\test\test.txt c:\t2\test.txt` |
-| `move` | `mv` | Move pastas e arquivos | `move c:\test\test.txt c:\t2\test.txt` |
+| `copy` | `cp` | Copia pastas e arquivos | `cp c:\t1\test.txt c:\t2\test.txt` |
+| `move` | `mv` | Move pastas e arquivos | `mv c:\t1\test.txt c:\t2\test.txt` |
 | `mkdir` | `mkdir` | Cria pastas | `mkdir test` |
 | `del` | `rm` | Remove pastas e arquivos | `del c:\test\test.txt` |
 | `exit` | `exit` | Fecha a janela | `exit` |
