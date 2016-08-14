@@ -19,6 +19,17 @@ erros acontecerem, e arrumando aos poucos, para ver algo se construir!
 Logo depois do curso, começou estagiando como programadora PHP, e a partir daí
 não parou mais. Hoje trabalha com Ruby on Rails, que é simplesmente lindo.
 
+## Inajara Leppa
+
+Começou na tecnologia com 13 anos, quando criou seu primeiro blog e teve
+que editar o template pra deixar como queria, então descobriu que tinha um
+curso gratuito de programação em sua cidade e resolveu fazer, desde então
+programação faz parte de sua vida. Em 2013 começou a disseminar a programação
+por aí através da participação em eventos, realização de oficinas e a criação
+da [Programe o mundo](http://programeomundo.com.br/). Trabalha com programação
+há 5 anos e não vê mais a vida sem estas linhas de código que se transformam em
+tantas coisas legais.
+
 ## Roberto Soares
 
 Seu interesse por computadores começou ainda muito novo, quando brincava com
