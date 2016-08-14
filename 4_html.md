@@ -1,7 +1,7 @@
 # HTML
 
-Neste capítulo vamos falar sobre HTML e criaremos a estrutura da uma página onde
-listaremos itens necessários para se realizar uma festa.
+Neste capítulo vamos falar sobre HTML e criaremos a estrutura da uma página com
+uma lista de desejos.
 
 ## O que é HTML?
 
@@ -91,6 +91,67 @@ Dica:
 > `tab` do seu computador que o editor de texto adiciona com o espaçamento
 > correto. Estes espaços antes das tags são importantes, pois facilitam a
 > leitura do código e deixam clara a hierarquia dos elementos.
+
+## Principais tags HTML
+
+O HTML possui diversas tags, aqui estão algumas e para que servem:
+
+```html
+<body></body> corpo da página, onde colocamos outras tags
+<p></p> parágrafos
+<a></a> links
+<h3></h3> títulos, de 1 a 6
+<ul></ul> listas não ordenada
+<li></li> itens de listas
+<div></div> para dividir a página em seções
+<table></table> tabelas
+<td></td> colunas de tabelas
+<tr></tr> linha na tabela
+<input /> campos de formulário
+<select> seleção múltipla
+  <option></option> opções para seleção
+</select>
+```
+
+Exemplo:
+
+```html
+<div>
+  <p>Sou um parágrafo dentro de uma div</p>
+  <table>
+    <tr>
+      <td>Coluna 1 - Linha 1</td>
+      <td>Coluna 2 - Linha 1</td>
+    </tr>
+    <tr>
+      <td>Coluna 1 - Linha 2</td>
+      <td>Coluna 2 - Linha 2</td>
+    </tr>
+  </table>
+</div>
+```
+
+Resultado:
+<!-- markdownlint-disable MD033 -->
+
+---
+
+<div>
+  <p>Sou um parágrafo dentro de uma div</p>
+  <table>
+    <tr>
+      <td>Coluna 1 - Linha 1</td>
+      <td>Coluna 2 - Linha 1</td>
+    </tr>
+    <tr>
+      <td>Coluna 1 - Linha 2</td>
+      <td>Coluna 2 - Linha 2</td>
+    </tr>
+  </table>
+</div>
+
+---
+<!-- markdownlint-enable MD033 -->
 
 ## Onde aprender mais sobre HTML?
 
