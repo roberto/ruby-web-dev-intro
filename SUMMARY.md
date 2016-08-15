@@ -1,22 +1,19 @@
 # Summary
 
 * [Sobre](README.md)
+* [Autores](autores.md)
 
 ## Ferramentas
 
-* [Terminal](2_terminal.md)
-* [Editores](3_editores.md)
+* [1. Terminal](2_terminal.md)
+* [2. Editores](3_editores.md)
 
 ## HTML e CSS
 
-* [HTML](4_html.md)
-* [CSS](5_css.md)
+* [3. HTML](4_html.md)
+* [4. CSS](5_css.md)
 
 ## Programando
 
-* [Ruby](6_ruby.md)
-* [Sinatra](7_sinatra.md)
-
-----
-
-* [Autores](autores.md)
+* [5. Ruby](6_ruby.md)
+* [6. Sinatra](7_sinatra.md)
