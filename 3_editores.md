@@ -17,19 +17,21 @@ Aqui uma captura de tela de um projeto utilizando o Atom:
 Ao lado esquerdo os arquivos e pastas do diretório, ao lado direito um arquivo
 aberto para edição.
 
-Em seguida alguns comandos úteis que te ajudaram a utilizar o editor:
+### Atalhos
 
-| Comando (Windows) | Comando (Mac) | Comando (Linux) | Descrição |
+Em seguida alguns atalhos úteis que te ajudaram a utilizar o editor:
+
+| Atalho (Windows e Linux) | Atalho (Mac) | Descrição |
 | --- | --- | --- | --- |
-| `ctrl-p` | `cmd-p` | `ctrl-p` | Busca e abre um arquivo a partir de um nome |
-| `crtl-n` | `cmd-n` | `ctrl-n` | Cria um novo arquivo |
-| `ctrl-s` | `cmd-s` | `ctrl-s` | Salva o arquivo atual |
-| `ctrl-shift-s` | `shift-cmd-s` | `ctrl-shift-s` | Salva o arquivo atual com outro nome |
-| `ctrl-w` | `cmd-w` | `ctrl-w` | Fecha a aba atual |
-| `ctrl-f` | `cmd-f` | `ctrl-f` | Abre o recurso de busca e substituição |
-| `ctrl-/` | `cmd-/` | `ctrl-/` | Comenta ou descomenta uma linha ou texto selecionado |
+| `ctrl-p` | `cmd-p` | Busca e abre um arquivo a partir de um nome |
+| `crtl-n` | `cmd-n` | Cria um novo arquivo |
+| `ctrl-s` | `cmd-s` | Salva o arquivo atual |
+| `ctrl-shift-s` | `shift-cmd-s` | Salva o arquivo atual com outro nome |
+| `ctrl-w` | `cmd-w` | Fecha a aba atual |
+| `ctrl-f` | `cmd-f` | Abre o recurso de busca e substituição |
+| `ctrl-/` | `cmd-/` | Comenta ou descomenta uma linha ou texto selecionado |
 
-Também existem outros editores disponíveis no mercado, alguns exemplos:
+Existem outros editores disponíveis no mercado, alguns exemplos:
 
 * [Notepad++](https://notepad-plus-plus.org/)
 * [Sublime Text](https://www.sublimetext.com/)
