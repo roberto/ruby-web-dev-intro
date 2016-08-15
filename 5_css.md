@@ -76,3 +76,25 @@ itens com a classe "favorito" terão a cor amarela como fundo:
 ```css
 .favorito { background-color: yellow; }
 ```
+
+### Principais propriedades do CSS
+
+O CSS possui diversas propriedades, aqui estão algumas delas:
+
+* `font-family` - Define a família da fonte utilizada.
+* `font-style` - Define a propriedades de estilos que podem ser: normal,
+  italic ou oblique.
+* `font-size` - Define o tamanho da fonte. Tem que utilizar uma unidade de
+  medida (px, em, etc)
+* `text-align` - Controla o posicionamento do conteúdo de um elemento. Os
+  valores possíveis são: left, right, center e justify.
+* `color` - Define a cor de um texto. Pode ser em hexa, RGB ou nome em inglês.
+* `width` - Define a largura de um elemento. Tem que utilizar uma unidade de
+  medida (px, em, etc)
+* `height` - Define a altura de um elemento. Tem que utilizar uma unidade de
+  medida (px, em, etc)
+* `border` - Define bordas para um elemento. Tem que ter a espessura, tipo e a
+  cor.
+* `background` - Define as propriedades relacionadas ao fundo de exibição:
+  `background-color`, `background-image`, `background-repeat`,
+  `background-attachment`, `background-position`
