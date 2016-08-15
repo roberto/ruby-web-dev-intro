@@ -98,3 +98,62 @@ O CSS possui diversas propriedades, aqui estão algumas delas:
 * `background` - Define as propriedades relacionadas ao fundo de exibição:
   `background-color`, `background-image`, `background-repeat`,
   `background-attachment`, `background-position`
+
+## Utilizando CSS no HTML
+
+Agora que já criamos um arquivo HTML e vimos como funciona o CSS, como juntar
+os dois? Temos 3 maneis de fazer isso: folha de estilo externa, folha de
+estilo interna e estilo em linha.
+
+### Folha de estilo externa
+
+Com uma folha de estilo externa, é possível alterar a aparência de um site
+inteiro, alterando apenas um arquivo. O arquivo de folha de estilo externo
+deve ser salvo com uma extensão `.css` .
+
+Cada página HTML deve incluir uma referência para o arquivo de folha de
+estilo externa no interior do elemento `<link>`. O elemento `<link>` vai
+dentro da seção `<head>` (logo acima do `<body>`):
+
+```html
+<html>
+  <head>
+    <link rel="stylesheet" href="site.css" type="text/css">
+  </head>
+  <body>
+    (...)
+  </body>
+</html>
+```
+
+### Folha de estilo interna
+
+Uma folha de estilo interna pode ser usada se uma única página e tem um
+estilo único. Estilos internos são definidos dentro do elemento `<style>`,
+dentro da seção `<head>` de uma página HTML:
+
+```html
+<html>
+  <head>
+    <style>
+      elemento { propriedade: valor; }
+    </style>
+  </head>
+  <body>
+    (...)
+  </body>
+</html>
+```
+
+### Estilo em linha
+
+Um estilo em linha pode ser usado para aplicar um modelo exclusivo em um
+único elemento.
+Para usar estilos em linha, adicione o atributo de estilo `style` ao
+elemento relevante. O atributo de estilo pode conter qualquer propriedade CSS.
+Este estilo não é muito recomendado, pois pode causar re-trabalho e códigos
+confusos.
+
+```html
+<h1 style="color: blue; margin-left: 30px;">Título</h1>
+```
