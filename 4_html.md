@@ -255,6 +255,36 @@ atributo `href` para indicar a página destino:
 </li>
 ```
 
+## Cabeçalho
+
+Algumas tags fazem parte do cabeçalho e alteram algum comportamento da página
+sem aparecerem como conteúdo visível na página, sendo meta informações.
+
+Devem ser adicionadas dentro da tag `head`:
+
+```html
+<html>
+  <head>
+    <!-- adicione as tags aqui -->
+  </head>
+  <body>
+  </body>
+</html>
+```
+
+Por exemplo, podemos utilizar a seguinte tag abaixo para acentuar palavras sem
+ter problemas:
+
+```html
+<meta charset="utf-8">
+```
+
+E com a tag `title` podemos alterar o título da janela (ou aba) no navegador:
+
+```html
+<title>Lista de Desejos</title>
+```
+
 ## Onde aprender mais sobre HTML?
 
 Abaixo, alguns links que podem ajudar a ver mais sobre HTML:
