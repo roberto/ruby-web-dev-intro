@@ -60,3 +60,7 @@ end
 
 O bloco de código passado para o `get` indica como responderemos a solicitação,
 no caso retornando a frase `"Olá Mundo!"`.
+
+### Onde aprender mais sobre Sinatra?
+
+* [http://www.sinatrarb.com/intro-pt-br.html](http://www.sinatrarb.com/intro-pt-br.html)
