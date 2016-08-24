@@ -157,3 +157,11 @@ confusos.
 ```html
 <h1 style="color: blue; margin-left: 30px;">Título</h1>
 ```
+
+## Onde aprender mais sobre CSS?
+
+Abaixo, alguns links que podem ajudar a ver mais sobre CSS:
+
+* [https://www.codecademy.com/pt-BR/learn/web](https://www.codecademy.com/pt-BR/learn/web)
+* [https://developer.mozilla.org/pt-BR/docs/Web/CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+* [http://www.maujor.com/tutorial/joe/cssjoe1.php](http://www.maujor.com/tutorial/joe/cssjoe1.php)
