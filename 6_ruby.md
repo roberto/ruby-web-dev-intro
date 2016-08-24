@@ -42,8 +42,27 @@ usar Ruby!
 ## Agora sim, vamos falar de Ruby?
 
 Vamos entender algumas coisas básicas do Ruby como variáveis, arrays, métodos,
-etc. Vamos dar uma olhada em o que são cada um desses nomes e como podemos criar
- eles :)
+etc. Vamos dar uma olhada em o que são cada um desses nomes e o que podemos
+criar com eles :)
+
+Mas antes de continuarmos vamos conhecer o `irb`. O `irb` é um ambiente
+interativo para execução de código ruby, nele conseguimos executar código ruby
+de maneira instantânea e ver o resultado do nosso código. Todos os exemplos a
+seguir podem executados no `irb`.
+
+Para entrar no `irb` você executa o comando:
+
+```sh
+$ irb
+```
+
+E ele se parece com isso:
+
+```sh
+irb(main):001:0>
+```
+
+Para sair do `irb` você precisa digitar `exit` e pressionar Enter.
 
 ## Tipos básicos no Ruby
 
