@@ -69,3 +69,11 @@ Outros comandos úteis:
 | `mkdir` | `mkdir` | Cria pastas | `mkdir test` |
 | `del` | `rm` | Remove pastas e arquivos | `del c:\test\test.txt` |
 | `exit` | `exit` | Fecha a janela | `exit` |
+
+## Onde aprender mais sobre linha de comando?
+
+Abaixo, alguns links que podem ajudar a ver mais sobre linha de comando:
+
+* Para Windows [https://technet.microsoft.com/pt-br/library/bb978526.aspx](https://technet.microsoft.com/pt-br/library/bb978526.aspx)
+* Para Mac/Linux [https://br.udacity.com/course/linux-command-line-basics--ud595/](https://br.udacity.com/course/linux-command-line-basics--ud595/)
+* Para Mac/Linux [https://www.codecademy.com/pt-BR/learn/learn-the-command-line](https://www.codecademy.com/pt-BR/learn/learn-the-command-line) - está em inglês, porém é bastante simples
