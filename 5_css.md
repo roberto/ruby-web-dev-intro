@@ -162,6 +162,7 @@ confusos.
 
 Abaixo, alguns links que podem ajudar a ver mais sobre CSS:
 
+* [https://pt.khanacademy.org/computing/computer-programming/html-css](https://pt.khanacademy.org/computing/computer-programming/html-css)
 * [https://www.codecademy.com/pt-BR/learn/web](https://www.codecademy.com/pt-BR/learn/web)
 * [https://developer.mozilla.org/pt-BR/docs/Web/CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 * [http://www.maujor.com/tutorial/joe/cssjoe1.php](http://www.maujor.com/tutorial/joe/cssjoe1.php)
