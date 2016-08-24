@@ -52,12 +52,6 @@ abertura e fechamento. Exemplo:
 Alguns casos não precisam de tuas tags, uma de abertura e outra para
 fechamento, pois o fechamento ocorre dentro da própria tag.
 
-Tag de imagem:
-
-```html
-<img />
-```
-
 Tag para adicionar nova linha em branco:
 
 ```html
