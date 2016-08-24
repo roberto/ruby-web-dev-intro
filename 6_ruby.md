@@ -41,10 +41,9 @@ usar Ruby!
 
 ## Agora sim, vamos falar de Ruby?
 
-Como já comentei, o Ruby on Rails é feito com a linguagem Ruby. Então, antes de
-começarmos a programar, é melhor entendermos algumas coisas básicas do ruby como
-variáveis, arrays, métodos, etc. Vamos dar uma olhada em o que são cada um
-desses nomes e como podemos criar eles :)
+Vamos entender algumas coisas básicas do Ruby como variáveis, arrays, métodos,
+etc. Vamos dar uma olhada em o que são cada um desses nomes e como podemos criar
+ eles :)
 
 ## Tipos básicos no Ruby
 
