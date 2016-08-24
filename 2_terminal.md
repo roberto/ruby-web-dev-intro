@@ -76,4 +76,4 @@ Abaixo, alguns links que podem ajudar a ver mais sobre linha de comando:
 
 * Para Windows [https://technet.microsoft.com/pt-br/library/bb978526.aspx](https://technet.microsoft.com/pt-br/library/bb978526.aspx)
 * Para Mac/Linux [https://br.udacity.com/course/linux-command-line-basics--ud595/](https://br.udacity.com/course/linux-command-line-basics--ud595/)
-* Para Mac/Linux [https://www.codecademy.com/pt-BR/learn/learn-the-command-line](https://www.codecademy.com/pt-BR/learn/learn-the-command-line) - está em inglês, porém é bastante simples
+* Para Mac/Linux (está em inglês, porém é bastante simples) [https://www.codecademy.com/pt-BR/learn/learn-the-command-line](https://www.codecademy.com/pt-BR/learn/learn-the-command-line)
