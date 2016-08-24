@@ -102,10 +102,12 @@ O HTML possui diversas tags, aqui estão algumas e para que servem:
 <table></table> tabelas
 <td></td> colunas de tabelas
 <tr></tr> linha na tabela
-<input /> campos de formulário
-<select> seleção múltipla
-  <option></option> opções para seleção
-</select>
+<form> para agrupar entradas de um formulário
+  <input /> campos de formulário
+  <select> para agrupar opções para seleção
+    <option></option> opções
+  </select>
+</form>
 ```
 
 Exemplo:
