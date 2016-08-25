@@ -17,7 +17,7 @@ código em Ruby e JavaScript. Você pode checar seus pensamentos no twitter
 
 Trabalha com programação há 5 anos e não vê mais a vida sem estas linhas de
 código que se transformam em tantas coisas legais. Em 2013 começou a disseminar
-a programação por aí e é dona da Programa o mundo (
+a programação por aí e é dona da Programe o mundo (
 [http://programeomundo.com.br/](http://programeomundo.com.br/)
 ).
 
