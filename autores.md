@@ -2,7 +2,7 @@
 
 ## Caroline Moers
 
-Desenvolvedora a 3 anos, começou na área por influência do pai, que ensinou a
+Desenvolvedora há 3 anos, começou na área por influência do pai, que ensinou a
 ela as magias da  informática desde pequena. Começou brincando com PHP e
 atualmente trabalha na ThoughtWorks.
 

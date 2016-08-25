@@ -170,8 +170,8 @@ Vamos utilizar o que aprendemos para alterar o estilo da nossa lista:
 </style>
 ```
 
-No exemplo acima estamos indicando que elementos com a classe de estilo
-`favorito` tenham o fundo da cor amarela e utilizando da seguinte forma:
+No exemplo acima estamos indicando que elementos que contenham a classe de
+estilo `favorito` possuam o fundo na cor amarela se utilizados da seguinte forma:
 
 ```html
 <ul>

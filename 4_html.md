@@ -95,7 +95,7 @@ O HTML possui diversas tags, aqui estão algumas e para que servem:
 <p></p> parágrafos
 <a></a> links
 <h3></h3> títulos, de 1 a 6
-<ul> listas não ordenada
+<ul> lista não ordenada
   <li></li> itens de listas
 </ul>
 <div></div> para dividir a página em seções
