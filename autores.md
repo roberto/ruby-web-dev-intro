@@ -1,17 +1,17 @@
 # Sobre os Autores
 
+## Caroline Moers
+
+Desenvolvedora a 3 anos, começou na área por influência do pai, que ensinou a
+ela as magias da  informática desde pequena. Começou brincando com PHP e
+atualmente trabalha na ThoughtWorks.
+
 ## Enzo Zuccolotto
 
 Desenvolvedor de Porto Alegre, apaixonado por aplicações Web que adora escrever
 código em Ruby e JavaScript. Você pode checar seus pensamentos no twitter
 [@_enzoz](http://twitter.com/_enzoz) e no github em
 [https://github.com/enzoz](https://github.com/enzoz).
-
-## Caroline Moers
-
-Desenvolvedora a 3 anos, começou na área por influência do pai, que ensinou a
-ela as magias da  informática desde pequena. Começou brincando com PHP e
-atualmente trabalha na ThoughtWorks.
 
 ## Inajara Leppa
 
