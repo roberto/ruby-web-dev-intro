@@ -158,6 +158,28 @@ confusos.
 <h1 style="color: blue; margin-left: 30px;">Título</h1>
 ```
 
+## Alterando nossa lista
+
+Vamos utilizar o que aprendemos para alterar o estilo da nossa lista:
+
+```html
+<style>
+  .favorito {
+    background-color: yellow;
+  }
+</style>
+```
+
+No exemplo acima estamos indicando que elementos com a classe de estilo
+`favorito` tenham o fundo da cor amarela e utilizando da seguinte forma:
+
+```html
+<ul>
+  <li class="favorito">Unicórnio de pelúcia</li>
+  <li>Livro com cheiro de novo</li>
+</ul>
+```
+
 ## Onde aprender mais sobre CSS?
 
 Abaixo, alguns links que podem ajudar a ver mais sobre CSS:
