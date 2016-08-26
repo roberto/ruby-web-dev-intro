@@ -1,3 +1,6 @@
 {
-  "language": "pt"
+  "language": "pt",
+  "pdf": {
+    "pageNumbers": false
+  }
 }
