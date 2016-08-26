@@ -19,7 +19,7 @@ aberto para edição.
 
 ### Atalhos
 
-Em seguida alguns atalhos úteis que te ajudaram a utilizar o editor:
+Em seguida alguns atalhos úteis que te ajudarão a utilizar o editor:
 
 | Atalho (Windows e Linux) | Atalho (Mac) | Descrição |
 | --- | --- | --- | --- |
