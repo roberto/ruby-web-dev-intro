@@ -1,7 +1,7 @@
 # CSS
 
-Neste capítulo veremos como trabalhar com cores, fontes, margens no HTML. Depois disso,
-aplicaremos na nossa lista de desejos.
+Neste capítulo veremos como trabalhar com cores, fontes, margens no HTML.
+Depois disso, aplicaremos na nossa lista de desejos.
 
 ## O que é CSS?
 
