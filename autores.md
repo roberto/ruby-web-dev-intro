@@ -28,3 +28,8 @@ e treinamentos sobre Ruby e Ruby on Rails. Atualmente atua como consultor na
 ThoughtWorks, ajuda alguns projetos no Github
 ([https://github.com/roberto/](https://github.com/roberto/)) e de vez em quando
 escreve no twitter [bt1](https://twitter.com/bt1/).
+
+## Revisores
+
+* Bárbara Hartmann - https://github.com/ebragaparah
+* Eduardo Braga - https://github.com/bahartmann
