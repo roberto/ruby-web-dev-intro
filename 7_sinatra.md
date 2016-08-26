@@ -75,7 +75,7 @@ lista_de_desejos = [
 ]
 
 get '/' do
-  erb(:inicio, locals: { desejos: lista_de_desejos })
+  erb(:lista, locals: { desejos: lista_de_desejos })
 end
 ```
 
@@ -85,7 +85,7 @@ Agora crie uma pasta chamada `views`, no terminal execute os seguintes comandos:
 mkdir views
 ```
 
-Após isso, entre na pasta com `cd views` e crie o arquivo `inicio.erb` com o
+Após isso, entre na pasta com `cd views` e crie o arquivo `lista.erb` com o
 seguinte conteúdo:
 
 ```erb
@@ -125,7 +125,7 @@ lista_de_desejos = [
 
 # (...)
 
-erb(:inicio, locals: { desejos: lista_de_desejos })
+erb(:lista, locals: { desejos: lista_de_desejos })
 ```
 
 Diferente do exemplo anterior, neste utilizamos primeiras linhas para criar uma
@@ -169,7 +169,7 @@ post '/novo' do
 end
 ```
 
-Adicione um link no arquivo `inicio.erb` para o formulário utilizando o seguinte
+Adicione um link no arquivo `lista.erb` para o formulário utilizando o seguinte
 código:
 
 ```html

@@ -155,7 +155,7 @@ Vamos agora criar uma lista de desejos, podem ser presentes, utilizando HTML.
 
 ### Passo a passo
 
-* Crie um arquivo chamado `index.html` no seu editor em alguma pasta do seu
+* Crie um arquivo chamado `lista.html` no seu editor em alguma pasta do seu
   computador
 * Abra o arquivo e digite:
 
