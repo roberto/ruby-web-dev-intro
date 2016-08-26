@@ -285,6 +285,56 @@ E com a tag `title` podemos alterar o título da janela (ou aba) no navegador:
 <title>Lista de Desejos</title>
 ```
 
+## Criando um formulário
+
+Vamos experimentar criar um formulário. Crie um arquivo chamado
+`formulario.html` com o seguinte conteúdo:
+
+```html
+<html>
+  <body>
+    <form action="/novo" method="post">
+      <label>Desejo:</label>
+      <input type="text" name="desejo" />
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
+```
+
+Na definição da tag `form` indicamos como e para onde os dados dos campos serão
+enviados:
+
+```html
+<form action="/novo" method="post">
+```
+
+Usamos `label` para termos um rótulo para nosso campo de entrada:
+
+```html
+<label>Desejo:</label>
+```
+
+A tag `input` indicando o tipo de entrada e o nome que será utilizado para
+representar a informação ao submeter ao conteúdo:
+
+```html
+<input type="text" name="desejo" />
+```
+
+E ao fim adicionando o botão para o envio do formulário:
+
+```html
+<button type="submit">Enviar</button>
+```
+
+Faremos este formulário funcionar no capítulo sobre Sinatra, por enquanto
+experimente alterações como:
+
+* `textarea` em vez de `input`
+* renomeie o botão de envio
+* adicione outro campo com outro `label`
+
 ## Onde aprender mais sobre HTML?
 
 Abaixo, alguns links que podem ajudar a ver mais sobre HTML:
