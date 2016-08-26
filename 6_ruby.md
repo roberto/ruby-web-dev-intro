@@ -329,7 +329,7 @@ for nome in lista_de_nomes
   escrever_nome(nome)
 end
 
-# Note que estamos utilizando o método `escrever_nome` do exemplo anterior.
+# Note que estamos utilizando o método escrever_nome do exemplo anterior.
 ```
 
 ### Comentários
