@@ -24,8 +24,8 @@ HTML o browser irá exibir um texto com a formatação de um título.
 
 ## Estrutura de uma tag
 
-Todas as tags possuem um formato, que deve ser utilizado na hora de codificar
-pelos desenvolvedores web.
+Todas as tags possuem um formato que deve ser utilizado pelos desenvolvedores
+web na hora de codificar.
 As tags começam com um sinal de "<" e terminam com um sinal de ">".
 
 ## Tags de abertura e de fechamento
@@ -49,7 +49,7 @@ abertura e fechamento. Exemplo:
 <h1>Título da página</h1>
 ```
 
-Alguns casos não precisam de tuas tags, uma de abertura e outra para
+Alguns casos não precisam de duas tags, uma de abertura e outra para
 fechamento, pois o fechamento ocorre dentro da própria tag.
 
 Tag para adicionar nova linha em branco:
@@ -67,8 +67,8 @@ Tag para adicionar nova linha em branco:
 
 ## Tags aninhadas
 
-É possível aninhar várias tags, para que tenhamos uma estrutura de conteúdos
-um dentro do outro.
+É possível aninhar várias tags para que tenhamos uma estrutura de conteúdos
+inseridos um dentro do outro.
 
 Exemplo:
 
@@ -81,7 +81,7 @@ Exemplo:
 
 Dica:
 
-> Para conseguir adicionar estes espaços antes da tag, é só apertar a tecla
+> Para conseguir adicionar estes espaços antes de uma tag, é só apertar a tecla
 > `tab` do seu computador que o editor de texto adiciona com o espaçamento
 > correto. Estes espaços antes das tags são importantes, pois facilitam a
 > leitura do código e deixam clara a hierarquia dos elementos.
@@ -187,14 +187,14 @@ Agora vamos adicionar uma lista logo após nosso título:
 
 Experimente também utilizar a tag `ol` em vez de `ul` ou até mesmo `table`.
 Escreva seu nome, seu aniversário ou a data de uma festa. Tente utilizar as
-tags da sessão "Principais tags HTML" para ver como fica na página.
+tags da sessão "Principais tags HTML" para ver o resultado na página.
 
 ## Atributos de tags
 
 As tags podem ter atributos. Um atributo possui um nome e um valor, e é
-utilizado para adicionar informações extras ao elemento. Esta pode ser a
-informação a qual indica como o conteúdo deve ser renderizado, algo que
-identifique a ocorrência única do elemento e entre outras possibilidades.
+utilizado para adicionar informações extras ao elemento. Esta informação
+pode ser algo que indique como o conteúdo deve ser renderizado, que
+identifique a ocorrência única do elemento, entre outras possibilidades.
 
 O atributo de um elemento é sempre escrito dentro da tag de abertura logo após
 o nome e tem o padrão nomedoatributo + sinal de igual + valor entre aspas.
@@ -230,7 +230,7 @@ Tag `<input>`:
 
 Tag `<img>`:
 
-* src - Localização da imagem (caminho do computador, url, etc)
+* src - Localização da imagem (caminho no computador, url, etc)
 * alt - Descrição da imagem
 * width - Largura da imagem
 * height - Altura da imagem
