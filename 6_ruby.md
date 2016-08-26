@@ -279,6 +279,13 @@ texto = escrever_nome("Carol")
 print(texto)
 ```
 
+### Controle de fluxo
+
+Até então escrevemos código que sempre é executado e nesta seção abordaremos uma
+forma de controlar o fluxo do programa, a partir de alguma condição. Assim
+
+### Laço de repetição
+
 ### Comentários
 
 São partes do código que não serão executados, podem ser usados pra lembrar de
