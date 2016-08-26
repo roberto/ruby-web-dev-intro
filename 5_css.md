@@ -5,11 +5,11 @@ aplicaremos na nossa lista de desejos.
 
 ## O que é CSS?
 
-Quando tags como e atributos de cor foram adicionados ao HTML, começou um
-pesadelo para os desenvolvedores web. Desenvolvimento de grandes sites, onde
-fontes e cores informações tinham que ser adicionadas a cada página, tornou o
-processo longo e caro. Para resolver este problema, a World Wide Web Consortium
-(W3C) criou o CSS.
+Quando tags e atributos de cor foram adicionados ao HTML, foi um verdadeiro
+pesadelo para os desenvolvedores web. Desenvolver grandes sites, nos quais
+informações de fontes e cores tinham que ser adicionadas a cada página, se
+tornou um processo longo e caro. Para resolver este problema, a World Wide Web
+Consortium (W3C) criou o CSS.
 
 O CSS (Cascading Style Sheets, em português, Folha de Estilos em Cascata)
 controla fontes, cores, margens, linhas, alturas, larguras, imagens de fundo,
@@ -18,7 +18,7 @@ diferentes para uma mesma estrutura em HTML.
 
 ## Seletores CSS
 
-Os seletores são a forma de indicar em quais elementos estaremos aplicando as
+Os seletores são a forma de indicar a quais elementos estaremos aplicando as
 propriedades declaradas.
 
 ### Estrutura de um seletor
@@ -55,8 +55,8 @@ No CSS identificamos o tipo `id` com o caracter "#" (hashtag).
 #id-do-elemento { propriedade: valor; }
 ```
 
-Assim podemos indicar pelo atributo `id` qual elemento deve receber tal
-propriedade. Exemplo, elemento com `id` "nome" terá o tamanho de fonte 13px:
+Assim podemos indicar pelo atributo `id` qual elemento deve receber a propriedade
+indicada. Exemplo, elemento com `id` "nome" terá o tamanho de fonte 13px:
 
 ```css
 #nome { font-size: 13px; }
@@ -151,8 +151,8 @@ Um estilo em linha pode ser usado para aplicar um modelo exclusivo em um
 único elemento.
 Para usar estilos em linha, adicione o atributo de estilo `style` ao
 elemento relevante. O atributo de estilo pode conter qualquer propriedade CSS.
-Este estilo não é muito recomendado, pois pode causar re-trabalho e códigos
-confusos.
+Esta maneira de aplicar estilos não é muito recomendada, pois pode causar
+re-trabalho e códigos confusos.
 
 ```html
 <h1 style="color: blue; margin-left: 30px;">Título</h1>
