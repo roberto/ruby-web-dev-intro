@@ -45,12 +45,12 @@ Vamos entender algumas coisas básicas do Ruby como variáveis, arrays, métodos
 etc. Vamos dar uma olhada em o que são cada um desses nomes e o que podemos
 criar com eles :)
 
-Mas antes de continuarmos vamos conhecer o `irb`. O `irb` é um ambiente
+Mas antes de continuarmos vamos conhecer o **irb**. O **irb** é um ambiente
 interativo para execução de código ruby, nele conseguimos executar código ruby
 de maneira instantânea e ver o resultado do nosso código. Todos os exemplos a
-seguir podem executados no `irb`.
+seguir podem executados no **irb**.
 
-Para entrar no `irb` você executa o comando:
+Para entrar no **irb** você executa o comando:
 
 ```sh
 $ irb
@@ -62,46 +62,30 @@ E ele se parece com isso:
 irb(main):001:0>
 ```
 
-Para sair do `irb` você precisa digitar `exit` e pressionar Enter.
+Para sair do **irb** você precisa digitar `exit` e pressionar Enter.
 
 ## Tipos básicos no Ruby
 
 Nas variáveis que guardamos nossos dados e eles podem ser de vários tipos:
 
-* Palavras ou frases: **String**
 * Números inteiros: **Integer**
+* Palavras ou frases: **String**
 * Números decimais: **Float**
 * Valores lógicos (verdadeiro ou falso): **True** e **False**
 * Lista de valores: **Array**
-
-### Palavras ou frases
-
-Sempre estarão entre aspas, podendo ser duplas:
-
-```ruby
-projeto = "Projeto Tutoras"
-```
-
-Ou aspas simples:
-
-```ruby
-projeto = 'Projeto Tutoras'
-```
-
-Esse tipo é chamado **String**.
 
 ### Números inteiros e decimais
 
 **Integers** são números inteiros:
 
 ```ruby
-numero_de_aprendizes = 100
+paginas = 100
 ```
 
 **Floats** são números decimais:
 
 ```ruby
-horas_de_aprendizado = 4.5
+preco = 4.5
 ```
 
 Sendo `4,5` o valor no exemplo, pois o Ruby representa esses valores com ponto.
@@ -109,6 +93,67 @@ Sendo `4,5` o valor no exemplo, pois o Ruby representa esses valores com ponto.
 **Obs**: Um ponto importante pra citar aqui, é sobre o nome que damos às
 variáveis: elas não devem conter espaços, como podemos ver nas variáveis criadas
 aqui o espaço foi substituído por *underline* (\_).
+
+Experimente no **irb** algumas operações com números:
+
+```ruby
+(irb)> preco + 2      # 6.5
+(irb)> 10 - 4 / - 2   # 12
+(irb)> (10 - 4) / - 2 # -3
+(irb)> 35 % 6         # 5
+```
+
+E também alguns métodos:
+
+```ruby
+(irb)> 0.zero?         # serious?
+(irb)> 2.even?         # true
+(irb)> 0.odd?          # false
+(irb)> (1+2).next.next # 5
+```
+
+Falaremos mais sobre mais métodos ainda neste capítulo.
+
+### Palavras ou frases
+
+Sempre estarão entre aspas, podendo ser duplas:
+
+```ruby
+projeto = "Desejos"
+```
+
+Ou aspas simples:
+
+```ruby
+projeto = 'Desejos'
+```
+
+Esse tipo é chamado **String**.
+
+Formas de trabalhar com **Strings**:
+
+```ruby
+(irb)> "O resultado é #{5 + 2}"
+"O resultado é 7"
+(irb)> Meus + projeto
+# "Meus Desejos"
+(irb)> '1' * 5
+# 11111
+(irb)> 'Ê!' * 5
+# Ê!Ê!Ê!Ê!Ê!
+```
+
+```ruby
+(irb)> "casa".include? "asa"  # true
+(irb)> "casa".length          # 4
+(irb)> "casa".gsub("a","A")   # "cAsA"
+(irb)> "  casa  ".rstrip      # "  casa"
+(irb)> "casa".count("a")      # 2
+(irb)> "2".to_i               # 2
+(irb)> 2.to_s                 # "2"
+(irb)> "2".to_f               # 2.0
+(irb)> "2".rjust(5,"0")       # 00002
+```
 
 ### Lógicos
 
@@ -125,6 +170,15 @@ tutora_triste = false
 ```
 
 ‘**False**’ é falso em inglês.
+
+```ruby
+(irb)> true != false
+# true
+(irb)> tutora_feliz == 1
+# false
+(irb)> false.to_s
+# "false"
+```
 
 ### Listas de dados
 
@@ -147,6 +201,42 @@ E tudo junto:
 
 ```ruby
 dados = [10, true, "Carol"]
+```
+
+Formas para acessar os dados:
+
+```ruby
+(irb)> print nomes_das_tutoras[0]
+# Carol
+(irb)> dados.at(2)
+(irb)> dados.fetch(10, "Não encontrado!")
+(irb)> dados[-2]
+(irb)> dados.values_at(1,3)
+```
+
+Inserindo dados:
+
+```ruby
+(irb)> dados << "qualquer coisa"
+(irb)> dados.insert(-1,3)
+(irb)> dados.push 7
+```
+
+Removendo dados:
+
+```ruby
+(irb)> dados.pop
+(irb)> dados.shift
+(irb)> dados.delete_at 4
+(irb)> dados.delete 4
+```
+
+Outros métodos:
+
+```ruby
+(irb)> dados + ["abc"]
+(irb)> dados * 2
+(irb)> dados.join(", ")
 ```
 
 ### Métodos
