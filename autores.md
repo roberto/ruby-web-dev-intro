@@ -35,3 +35,5 @@ escreve no twitter [bt1](https://twitter.com/bt1/).
   [https://github.com/bahartmann](https://github.com/bahartmann)
 * Eduardo Braga -
   [https://github.com/ebragaparah](https://github.com/ebragaparah)
+* Juliana Fernandes -
+  [https://github.com/littlejuh](https://github.com/littlejuh)
