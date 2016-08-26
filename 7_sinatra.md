@@ -1,7 +1,7 @@
 # Sinatra
 
 Agora que já aprendemos um pouco sobre Ruby, vamos colocar em prática. O Sinatra
-é uma forma de criar aplicações web que utilizaremos nesta seção.
+é uma forma de criar aplicações web que utilizaremos neste capítulo.
 
 ## Instalação
 

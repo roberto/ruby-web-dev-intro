@@ -30,9 +30,9 @@ Você já possui Ruby instalado no seu computador!
 
 ### Linux
 
-Na linha de comando que mencionamos na seção anterior, digite o seguinte
-comando: `sudo apt-get install` e aperte *Enter*. Você deverá digitar sua senha
-(a mesma que você usa para ligar o computador) e apertar *Enter*.
+Na linha de comando que mencionamos no capítulo sobre terminais, digite o
+seguinte comando: `sudo apt-get install` e aperte *Enter*. Você deverá digitar
+sua senha (a mesma que você usa para ligar o computador) e apertar *Enter*.
 
 Para verificar se o Ruby está mesmo instalado, digite o comando `ruby -v` na
 linha de comando e aperte *Enter*. Você deve ver uma mensagem informando a

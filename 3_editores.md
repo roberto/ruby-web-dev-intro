@@ -1,7 +1,7 @@
 # Editores de Texto
 
 Para escrevermos nosso código utilizaremos um editor de texto apropriado para
-tal. Existem diversos editores que podem ser utilizados, mas nesta seção
+tal. Existem diversos editores que podem ser utilizados, mas neste capítulo
 falaremos um pouco do Atom, que será utilizado nos próximos exemplos,
 mas nada impede a utilização de outro editor de sua preferência. Outras
 opções de editores são apresentadas ao final do capítulo.
