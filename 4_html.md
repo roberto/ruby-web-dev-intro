@@ -1,7 +1,7 @@
 # HTML
 
-Neste capítulo vamos falar sobre HTML e criaremos a estrutura da uma página com
-uma lista de desejos.
+Neste capítulo vamos falar sobre HTML, aprender sobre HTML nos ajudará a criar
+a estrutura de uma página que contém uma lista de desejos.
 
 ## O que é HTML?
 
