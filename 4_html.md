@@ -65,9 +65,9 @@ Tag para adicionar nova linha em branco:
 * Não pode haver espaços na declaração das tags: `< h1 >`
 * Todas as tags devem ser fechadas: `<h1>Sub título</h1>` ou `<br />`
 
-## Tags aninhadas
+## Tags encadeadas
 
-É possível aninhar várias tags para que tenhamos uma estrutura de conteúdos
+É possível encadear várias tags para que tenhamos uma estrutura de conteúdos
 inseridos um dentro do outro.
 
 Exemplo:
