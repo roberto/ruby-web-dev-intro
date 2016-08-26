@@ -315,14 +315,14 @@ Usamos `label` para termos um rótulo para nosso campo de entrada:
 <label>Desejo:</label>
 ```
 
-A tag `input` indicando o tipo de entrada e o nome que será utilizado para
+A tag `input` indica o tipo de entrada e o nome que será utilizado para
 representar a informação ao submeter ao conteúdo:
 
 ```html
 <input type="text" name="desejo" />
 ```
 
-E ao fim adicionando o botão para o envio do formulário:
+E por fim, adicionamos o botão para o envio do formulário:
 
 ```html
 <button type="submit">Enviar</button>
