@@ -180,7 +180,7 @@ Ao reiniciar nossa aplicação, podemos acessar
 "[http://localhost:4567/](http://localhost:4567/novo)" para abrir o formulário
 e adicionarmos outros desejos na lista.
 
-## Entendendo nosso segundo exemplo
+## Entendendo nosso terceiro exemplo
 
 Ao acessar o caminho `/novo` será executado o bloco de código que carrega o
 modelo para a página do formulário:
