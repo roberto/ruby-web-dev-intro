@@ -1,1 +1,4 @@
 /* CSS for pdf */
+.section.toc .page {
+    display: none;
+}
