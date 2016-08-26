@@ -31,5 +31,7 @@ escreve no twitter [bt1](https://twitter.com/bt1/).
 
 ## Revisores
 
-* Bárbara Hartmann - https://github.com/bahartmann
-* Eduardo Braga - https://github.com/ebragaparah
+* Bárbara Hartmann -
+  [https://github.com/bahartmann](https://github.com/bahartmann)
+* Eduardo Braga -
+  [https://github.com/ebragaparah](https://github.com/ebragaparah)
