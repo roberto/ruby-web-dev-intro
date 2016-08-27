@@ -74,7 +74,7 @@ lista_de_desejos = [
   'Nova temporada da minha séria favorita'
 ]
 
-get '/' do
+get '/desejos' do
   erb(:lista, locals: { desejos: lista_de_desejos })
 end
 ```
@@ -120,7 +120,7 @@ método `get`. Como podemos ver à seguir:
 lista_de_desejos = [
   'Unicórnio Fofinho',
   'Livro com cheiro de novo',
-  'Nova temporada da minha séria favorita'
+  'Nova temporada da minha série favorita'
 ]
 
 # (...)
