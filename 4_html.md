@@ -335,6 +335,10 @@ experimente alterações como:
 * renomeie o botão de envio
 * adicione outro campo com outro `label`
 
+Abaixo podemos ver um exemplo do uso de formulários na web.
+
+![Formulario](images/4_html/exemplo_formulario.png)
+
 ## Onde aprender mais sobre HTML?
 
 Abaixo, alguns links que podem ajudar a ver mais sobre HTML:
